@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #050505;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#heart-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#title {
+    position: fixed;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+
+    z-index: 10;
+    pointer-events: none;
+    letter-spacing: 1px;
+}
